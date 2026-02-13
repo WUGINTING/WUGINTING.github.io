@@ -1,0 +1,63 @@
+/* ============================================
+   自定义 Header 样式
+   这个文件会在生成时自动加载
+   ============================================ */
+
+/* 修改 Banner 背景图片 */
+#banner {
+  background: url("/css/images/banner.jpg") center #000;
+  background-size: cover;
+  /* 如果你想使用渐变背景，可以取消下面的注释 */
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  /* 或者使用纯色背景 */
+  /* background: #1a1a2e; */
+}
+
+/* 修改 Header 标题文字样式 */
+#logo {
+  color: #fff !important;
+  font-size: 2.5em !important;
+  font-weight: bold !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) !important;
+  letter-spacing: 3px !important;
+  /* 你可以调整以下属性：
+     font-size: 调整标题大小
+     color: 调整标题颜色
+     text-shadow: 调整文字阴影效果
+  */
+}
+
+/* 修改副标题样式（如果使用 subtitle） */
+#subtitle {
+  color: #fff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
+  font-size: 18px !important;
+}
+
+/* 修改导航链接样式 */
+.main-nav-link {
+  color: #fff !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+  font-weight: 500 !important;
+}
+
+.main-nav-link:hover {
+  color: #4fc3f7 !important;
+  text-shadow: 0 0 8px rgba(79, 195, 247, 0.6) !important;
+}
+
+/* 修改 Header 整体高度（可选） */
+#header {
+  /* 取消下面的注释来调整 header 高度 */
+  /* min-height: 400px; */
+}
+
+/* 修改导航图标颜色 */
+.nav-icon {
+  color: #fff !important;
+}
+
+.nav-icon:hover {
+  color: #4fc3f7 !important;
+}
+
